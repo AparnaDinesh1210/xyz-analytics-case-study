@@ -1,0 +1,46 @@
+:root {
+  --teal: #18837E;
+  --razzmatazz: #DB3069;
+  --yale-blue: #004975;
+  --amethyst-smoke: #9882AC;
+  --white-smoke: #F2F2F2;
+
+  font-family: "Arial", sans-serif;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  background-color: var(--white-smoke);
+  color: var(--yale-blue);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: var(--teal);
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--teal);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--razzmatazz);
+}
+
+/* LAYOUT */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}

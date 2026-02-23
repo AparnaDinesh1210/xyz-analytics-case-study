@@ -1,0 +1,66 @@
+/* Layout */
+.app-container {
+  display: flex;
+  height: 100vh;
+  background: #f2f2f2; /* White Smoke */
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #18837E; /* Teal */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  color: white;
+  font-size: 16px;
+  margin: 12px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #F2F2F2;
+  text-decoration: underline;
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* Home Page */
+.home-container {
+  text-align: center;
+}
+
+.home-logo {
+  width: 450px;
+  margin: 20px auto;
+}
+
+.home-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #004975; /* Yale Blue */
+}
+
+.home-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
